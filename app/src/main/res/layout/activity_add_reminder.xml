@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="@color/colorHeaderSecondary"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/ic_alarm_add_white_48dp"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:id="@+id/etMedic"
+                android:ems="10"
+                android:hint="@string/medic_name"
+                android:inputType="textCapWords"
+                android:drawableLeft="@drawable/ic_edit_white_24dp"
+                android:drawableStart="@drawable/ic_edit_white_24dp"
+                style="@style/AddReminderLayout"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"/>
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"/>
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"/>
+
+                <CheckBox
+                    style="@style/CheckBoxStyle"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:text="Pilula"
+                    style="@style/TVStyle"/>
+
+                <TextView
+                    android:text="Tableta"
+                    style="@style/TVStyle"/>
+
+                <TextView
+                    android:text="Sirup"
+                    style="@style/TVStyle"/>
+
+                <TextView
+                    android:text="Praskasti"
+                    style="@style/TVStyle"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/etSetTIme"
+                android:hint="@string/alarm_set_time"
+                style="@style/AddReminderLayout"
+                android:drawableLeft="@drawable/ic_add_alert_white_24dp"
+                android:drawableStart="@drawable/ic_add_alert_white_24dp"/>
+
+            <EditText
+                android:id="@+id/etStartDate"
+                android:hint="@string/alarm_start_date"
+                android:inputType="datetime"
+                style="@style/AddReminderLayout"
+                android:drawableLeft="@drawable/ic_event_note_white_24dp"
+                android:drawableStart="@drawable/ic_event_note_white_24dp"/>
+
+            <EditText
+                android:id="@+id/etRepeatHours"
+                android:hint="@string/alarm_remind"
+                style="@style/AddReminderLayout"
+                android:drawableLeft="@drawable/ic_alarm_white_24dp"
+                android:drawableStart="@drawable/ic_alarm_white_24dp"/>
+
+            <EditText
+                android:id="@+id/etEndDate"
+                android:hint="@string/alarm_until_date"
+                android:inputType="datetime"
+                style="@style/AddReminderLayout"
+                android:drawableLeft="@drawable/ic_event_note_white_24dp"
+                android:drawableStart="@drawable/ic_event_note_white_24dp"/>
+
+            <Button
+                android:id="@+id/btnCOnfirmAlarm"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/rounded_button"
+                android:textColor="@color/colorBackgroundLight"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/alarm_confirm_button"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AddReminderLayout" parent="android:Widget.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:textColorHint">@color/colorDivider</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:maxLength">40</item>
+        <item name="android:textColor">@color/colorTextWhite</item>
+        <item name="android:backgroundTint">@color/colorBackgroundLight</item>
+        <item name="android:ems">10</item>
+    </style>
+</resources>

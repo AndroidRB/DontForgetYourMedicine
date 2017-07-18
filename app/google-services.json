@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "54651356401",
+    "firebase_url": "https://dont-forget-your-medicine.firebaseio.com",
+    "project_id": "dont-forget-your-medicine",
+    "storage_bucket": "dont-forget-your-medicine.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54651356401:android:1eb3113468389e8b",
+        "android_client_info": {
+          "package_name": "rs.fon.dontforgetyourmedicine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "54651356401-oqosh0dr4kuomrepu987g241rh6qgvub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rs.fon.dontforgetyourmedicine",
+            "certificate_hash": "eff369bd46438bfdfe00c49351191933c4cbfa73"
+          }
+        },
+        {
+          "client_id": "54651356401-15kiqa5gcb585ng52m9iq9pdivkp1di6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5acn3VJzkPU-BQn4YG0df5QlkInBNKng"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "54651356401-15kiqa5gcb585ng52m9iq9pdivkp1di6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBackgroundLight"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+
+    <TextView
+        android:id="@+id/histDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="12sp"/>
+
+
+    <TextView
+        android:id="@+id/tvHistMedicName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/histDate"
+        android:textColor="@color/colorHeaderSecondary"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:textSize="18sp"
+        android:text="Medic name" />
+
+    <TextView
+        android:id="@+id/tvHistTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvHistMedicName"
+        android:textColor="@color/colorHeaderPrimary"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:textSize="14sp"
+        android:text="Na svakih"/>
+
+    <TextView
+        android:id="@+id/histRepeat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvHistMedicName"
+        android:layout_toRightOf="@+id/tvHistTime"
+        android:layout_toEndOf="@+id/tvHistTime"
+        android:textColor="@color/colorHeaderPrimary"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:textSize="14sp"
+        android:text="broj sati" />
+
+    <TextView
+        android:id="@+id/histUntil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvHistMedicName"
+        android:layout_toRightOf="@+id/histRepeat"
+        android:layout_toEndOf="@+id/histRepeat"
+        android:textColor="@color/colorHeaderPrimary"
+        android:textSize="14sp"
+        android:text="h od"/>
+
+    <TextView
+        android:id="@+id/histStartDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvHistMedicName"
+        android:layout_toRightOf="@+id/histUntil"
+        android:layout_toEndOf="@+id/histUntil"
+        android:textColor="@color/colorHeaderPrimary"
+        android:textSize="14sp"
+        android:text="pocetni datum"/>
+
+    <TextView
+        android:id="@+id/histTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvHistMedicName"
+        android:layout_toRightOf="@+id/histStartDate"
+        android:layout_toEndOf="@+id/histStartDate"
+        android:textColor="@color/colorHeaderPrimary"
+        android:textSize="14sp"
+        android:text="do"/>
+
+    <TextView
+        android:id="@+id/histEndDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvHistMedicName"
+        android:layout_toRightOf="@+id/histTo"
+        android:layout_toEndOf="@+id/histTo"
+        android:textColor="@color/colorHeaderPrimary"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:textSize="14sp"
+        android:text="krajnji datum"/>
+
+
+    <ImageButton
+        android:id="@+id/imgHistDel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_delete_forever_black_36dp"
+        android:backgroundTint="@color/colorHeaderSecondary"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        tools:targetApi="lollipop" />
+
+</RelativeLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ne zaboravite vaš lek</string>
+
+    <string name="navigation_drawer_open">Otvori navigacionu fioku</string>
+    <string name="navigation_drawer_close">Zatvori navigacionu fioku</string>
+
+    <string name="action_settings">Podešavanja</string>
+
+    <!--Login-->
+    <string name="jump_to_home">Preskoči do početne stranice</string>
+    <string name="login_failed">Molimo vas proverite Internet konekciju</string>
+    <string name="login_sign">Prijavljivanje&#8230;</string>
+
+    <!--Navigation menu-->
+    <string name="nav_home">Danas</string>
+    <string name="nav_profile">Dodaj podsetnik</string>
+    <string name="nav_map">Pronađi apoteku</string>
+    <string name="nav_history">Istorija</string>
+    <string name="nav_settings">Podešavanja</string>
+    <string name="nav_doctor">Dodaj doktora</string>
+    <string name="nav_info">Informacije</string>
+    <string name="nav_logOut">Odjava</string>
+
+    <!--Settings-->
+    <string name="pref_title_language">Jezik</string>
+    <string-array name="pref_lang_list_titles">
+        <item>Engleski</item>
+        <item>Srpski</item>
+    </string-array>
+
+    <string-array name="pref_lang_list_values">
+        <item>eng</item>
+        <item>srp</item>
+    </string-array>
+
+    <string name="notification">Podešavanje notifikacija</string>
+    <string name="vibration">Vibracija</string>
+    <string name="notify">Notifikacije</string>
+    <string name="vib_on">Uključeno</string>
+    <string name="vib_off">Isključeno</string>
+    <string name="ringtone">Podesi zvuk alarma</string>
+
+    <!--All doctors Activities-->
+    <string name="add_doctor">Dodaj doktora</string>
+    <string name="delete_doctor">Obriši doktora</string>
+    <string name="delete_question">Da li zaista želite da obrišete doktora?</string>
+    <string name="delete">Obriši</string>
+    <string name="cancel">Odustani</string>
+    <string name="ok">OK</string>
+    <string name="edit_doctor">Izmeni doktora</string>
+    <string name="doctor_created">Doktor je uspešno kreiran</string>
+    <string name="error_info_name_length_empty">Ime ne sme biti prazno</string>
+    <string name="error_info_name">Ime mora sadržati najmanje dva karaktera</string>
+    <string name="error_info_name_symbols">Ime ne sme sadržati brojeve i simbole</string>
+    <string name="error_info_lastname_length_empty">Prezime ne sme biti prazno</string>
+    <string name="error_info_lastname">Prezime mora sadržati najmanje dva karaktera</string>
+    <string name="error_info_lastname_symbols">Prezime ne sme sadržati brojeve i simbole</string>
+    <string name="error_info_spec_length_empty">Specijalnost ne sme biti prazna</string>
+    <string name="error_info_spec">Specijalnost mora sadržati najmanje dva karaktera</string>
+    <string name="error_info_spec_symbols">Specijalnost ne sme sadržati brojeve i simbole</string>
+    <string name="error_info_phone_length_empty">Broj telefona ne sme biti prazan</string>
+    <string name="error_info_email_length_empty">Email ne sme biti prazan</string>
+    <string name="error_info_email_pattern">Nepravilan format email adrese</string>
+    <string name="take_photo">Slikaj</string>
+    <string name="choose_from_gallery">Izaberi iz galerije</string>
+    <string name="cancel_photo">Odustani</string>
+    <string name="title">Dodaj fotografiju</string>
+    <string name="remove_photo">Ukloni fotografiju</string>
+
+    <!--Alarm activities-->
+    <string name="alarm_set">Alarm je postavljen na&#160;</string>
+    <string name="alarm_cancel">Alarm je otkazan</string>
+    <string name="alarm_on_every">Na svakih</string>
+    <string name="alarm_hours_set">h od&#160;</string>
+    <string name="alarm_hours_set2">&#160;do</string>
+    <string name="alarm_hour_picker_title">Na koliko sati?</string>
+
+    <!--add_reminder layout-->
+    <string name="medic_name">Ime leka</string>
+    <string name="alarm_set_time">Vreme alarma</string>
+    <string name="alarm_start_date">Datum početka alarma</string>
+    <string name="alarm_remind">Ponoviti na svakih?</string>
+    <string name="alarm_until_time">Vreme isteka alarma?</string>
+    <string name="alarm_until_date">Datum isteka alarma</string>
+    <string name="alarm_confirm_button">Potvrdi alarm</string>
+    <string name="alarm_cancel_button">Poništi alarm</string>
+
+    <!--add reminder validation-->
+    <string name="med_name">Niste uneli naziv leka</string>
+    <string name="med_st_time">Molimo vas unesite vreme alarma</string>
+    <string name="med_st_date">Niste uneli datum početka alarma</string>
+    <string name="med_rep">Niste uneli broj sati za ponavljanje alarma</string>
+    <string name="med_end_date">Niste uneli datum isteka alarma</string>
+
+    <!--add doctor layout-->
+    <string name="doc_name">Ime</string>
+    <string name="doc_lastname">Prezime</string>
+    <string name="doc_spec">Specijalnost</string>
+    <string name="doc_phone">Broj telefona</string>
+    <string name="doc_email">Email</string>
+    <string name="doc_add">Sačuvaj</string>
+
+    <!--Login layout-->
+    <string name="login_alarm">Jednostavan podsetnik za lekove</string>
+    <string name="login_history">Pratite istoriju terapija</string>
+    <string name="login_call_doctor">Pozovite doktora direktno iz aplikacije</string>
+    <string name="login_find_map">Pronađite najbližu apoteku u vašoj okolini</string>
+    <string name="login_click_here"><u>Pristupite aplikaciji</u></string>
+
+    <!--Alert dialog alarm-->
+    <string name="d_delete">Obriši istoriju</string>
+    <string name="d_warning">Da li ste sigurni da želite ukloniti terapiju iz istorije?</string>
+    <string name="d_stop_alarm">Zaustavi alarm</string>
+    <string name="d_stop_message">Ako zaustavite alarm biće uklonjen iz liste, da li ste sigurni?</string>
+    <string name="d_stop">Zaustavi</string>
+    <string name="alarm_stoped">Alarm je zaustavljen</string>
+
+    <!--Empty list texts-->
+    <string name="no_alarms">Nema aktivnih alarma za danas</string>
+    <string name="no_history">Nema istorije za prikaz</string>
+
+    <!--Strings for information layout-->
+    <string name="info_version">VERZIJA %s</string>
+    <string name="info_copyright">&#169; Radovan Bogdanić</string>
+</resources>

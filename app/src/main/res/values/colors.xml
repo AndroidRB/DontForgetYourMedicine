@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2A3247</color>
+    <color name="colorPrimaryDark">#33435A</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorDivider">#888888</color>
+
+    <color name="colorDisabled">#777777</color>
+
+    <color name="colorDividerLight">#AAAAAA</color>
+
+    <color name="colorHeaderPrimary">#3CBDC9</color>
+    <color name="colorHeaderPrimaryLighter">#43dae8</color>
+    <color name="colorHeaderSecondary">#33435A</color>
+    <color name="colorHeaderDarker">#2A3247</color>
+
+    <color name="colorHeartRate">#448EB1</color>
+
+    <color name="colorBackgroundLight">#E1E1E1</color>
+    <color name="colorAssertive">#C363C0</color>
+    <color name="colorThirdBlue">#3886B3</color>
+
+
+    <color name="colorTextWhite">#FFFFFF</color>
+    <color name="colorTextBlack">#000000</color>
+
+    <!--Colors for button clicking-->
+    <color name="colorHeaderPrimaryClicked">#3e9fa8</color>
+    <color name="colorHeartRateClicked">#2f708e</color>
+    <color name="colorHeaderSecondaryClicked">#242f3f</color>
+
+    <!--Colors for dots for slidebar-->
+    <color name="darker_gray_50transparency">#80aaaaaa</color>
+    <color name="colorHeaderPrimary_50transparency">#803CBDC9</color>
+
+    <color name="colorRed">#FF0000</color>
+
+
+    <color name="colorNavigationLigter">#00BFFF</color>
+    <color name="colorNavigationDarker">#1E90FF</color>
+    <color name="colorNavigationMoreDarker">#00008B</color>
+</resources>

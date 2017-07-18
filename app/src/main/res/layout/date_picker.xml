@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <DatePicker
+        android:id="@+id/customDatePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+    </DatePicker>
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingBottom="15dp"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/dp_cancel"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:text="@string/cancel"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/colorTextWhite"
+            android:background="@drawable/rounded_button"/>
+
+        <Button
+            android:id="@+id/dp_ok"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:text="@string/ok"
+            android:textColor="@color/colorTextWhite"
+            android:background="@drawable/round_button_darker" />
+
+    </LinearLayout>
+</LinearLayout>
